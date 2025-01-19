@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajouter-tache {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ajouter-tache input[type="text"] {
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.ajouter-tache button {
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.liste-taches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.liste-taches h2 {
+    margin-bottom: 10px;
+}
+
+.liste-taches ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liste-taches li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.liste-taches li input[type="checkbox"] {
+    margin-right: 10px;
+}
